@@ -1,0 +1,5 @@
+openapi: 3.0.0
+info:
+  title: 'Exemplo de API'
+  description: 'Descrição da API'
+  version: 1.0.0
