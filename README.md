@@ -1,3 +1,44 @@
+## Passo a passo para usar
+
+# Configuração
+Criar arquivo .env na pasta raiz, colar e adapdar o seguinte trecho:
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nome_do_banco_de_dados
+DB_USERNAME=nome_de_usuario
+DB_PASSWORD=senha
+```
+Executar o comando
+* php artisan key:generate
+
+# Instalação
+Clonar repositório
+- git clone https://github.com/rafalps/laravel-test.git
+
+Entrar na pasta laravel-test
+- cd laravel-test
+
+Instalar os pacotes
+- composer install
+
+Gerar JWT Token
+- php artisan jwt:secret
+
+Gerar registros no banco
+- php artisan db:seed
+
+Iniciar servidor
+- php artisan serve
+
+#
+#
+#
+#
+#
+## README Laravel ...
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
